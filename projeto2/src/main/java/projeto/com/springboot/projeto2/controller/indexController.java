@@ -10,6 +10,6 @@ public class indexController {
 
 @GetMapping("/")
     public String principal(){
-        return "manual da programção";
+        return "";
     }
 }

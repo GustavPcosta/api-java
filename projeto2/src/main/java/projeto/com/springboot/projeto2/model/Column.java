@@ -4,4 +4,8 @@ public @interface Column {
 
     boolean nullable();
 
+    boolean unique();
+
+    int length();
+
 }
